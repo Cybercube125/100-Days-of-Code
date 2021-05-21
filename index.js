@@ -1,5 +1,5 @@
 //My first js code!
 console.log("hello world");
-function myFunction {
+function myFunction (){
     document.getElementById("demo").innerHTML = "Hello JavaScript";
 }
