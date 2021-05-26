@@ -3,23 +3,20 @@
 //The main function that is used by index.html
 function myFunction (){
     document.getElementById("demo").innerHTML = "Hello JavaScript";
-    /*function pizzaMaker(){
+}
 
+function pizzaTime (){
+    let startQuiz = confirm("It's Pizza Time! Complete 3 challenges to earn a free pizza from your local PizzaHut!");
+    if (startQuiz) {
+        let Score = 0;
+        let Modify = confirm("Great! The first challenge will be a quiz!");
+        let Answer1 = prompt(`Question 1!
+        What is ${Modify ? "96 + 4":"3125 x 482"}?`)
+        switch (Answer1,Modify) {
+            case 100,true:
+                alert("Correct!");
+                Score = ++Score;
+                alert(Score);
+        }
     }
-let PizzaTime = confirm("Do you wish to order some pizza?");
-if (PizzaTime) {
-    alert("Great!")
-    pizzaMaker()
-    let CheeseType = prompt("What type of cheese do you want? [Mozzarella/Cheddar]")
-    switch(CheeseType) {
-        case "Mozzarella" :
-            confirm(`Are you sure you want ${CheeseType} cheese on your`)
-            break;
-    }
-} else {
-    let Reason = prompt("Then why are you here then?");
-    if (Reason == "I wanted to tell you I hate pizza!") {
-        alert("OH COME ON!");  
-    }
-}*/
 }
