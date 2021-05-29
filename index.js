@@ -1,10 +1,8 @@
-"use strict";
-//My first js  code!
-//The main function that is used by index.html
-function myFunction (){
-    document.getElementById("demo").innerHTML = "Hello JavaScript";
-}
+/*
 
+*/
+
+"use strict";
 
 function pizzaTime (){//Activated by "Pizza time?" button
     let startQuiz = confirm("It's Pizza Time! Complete 3 challenges to earn a free pizza from your local PizzaHut!");//Asks the userwhether they want to start the Pizza Challenges
